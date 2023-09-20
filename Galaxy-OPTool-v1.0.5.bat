@@ -18,9 +18,9 @@ echo STARTING OPTIMIZATION TOOL FOR ONE UI
 echo -------------------------------------
 echo.
 echo Optimizing animations...
-adb shell settings put global window_animation_scale 0.6
-adb shell settings put global transition_animation_scale 0.6
-adb shell settings put global window_animation_scale 0.6
+settings put global window_animation_scale 0.6
+settings put global transition_animation_scale 0.6
+settings put global window_animation_scale 0.6
 echo.
 echo Disabling GOS...
 adb shell pm uninstall --user 0 com.samsung.android.game.gos
